@@ -57,27 +57,6 @@ def generate_ics(events, filename="magic.ics"):
 
 
 # ---------------------------------------------------------
-# FILTER
-# ---------------------------------------------------------
-def is_relevant_event(ev):
-    name = ev["title"].lower()
-
-    # Modern
-    if "modern" in name:
-        return True
-
-    # RCQ / Qualifier
-    if "rcq" in name or "regional championship" in name or "qualifier" in name:
-        return True
-
-    # Store Championship
-    if "championship" in name:
-        return True
-
-    return False
-
-
-# ---------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------
 def main():
