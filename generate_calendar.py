@@ -1,11 +1,11 @@
-import pytz
+from zoneinfo import ZoneInfo
 from ics import Calendar, Event
 from datetime import datetime
 from bb_spiele import fetch_bb_spiele_events
 from funtainment import fetch_funtainment_events
 from dd_munich import fetch_dd_munich_events
 
-TZ = pytz.timezone("Europe/Berlin")
+TZ = ZoneInfo("Europe/Berlin")
 
 def tag_store(events, store_name):
     """Fügt dem Titel einen Store‑Tag hinzu."""
