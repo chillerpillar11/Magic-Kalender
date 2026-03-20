@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Magic Munich Calendar//DE
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:1cd874c0-a707-48da-8354-634e21b891bf@magic-munich
-DTSTAMP:20260320T171058
+UID:c7ead24e-ec3c-4d5c-8698-7a08021a718b@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260325T180000
 DTEND:20260325T210000
 SUMMARY:Magic Modern Turnier
@@ -13,8 +13,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:ef0767b1-5e88-4bfc-b069-b29cbdbac95b@magic-munich
-DTSTAMP:20260320T171058
+UID:39a4e63b-fdd1-420f-936f-46242ab5cd4a@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260401T180000
 DTEND:20260401T210000
 SUMMARY:Magic Modern Turnier
@@ -23,8 +23,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4b2345b2-7eaa-4174-b940-da9a5ea03175@magic-munich
-DTSTAMP:20260320T171058
+UID:759c9d96-1b88-4b80-98e0-a5134eb0953b@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260404T110000
 DTEND:20260404T140000
 SUMMARY:Regional Championship Store Qualifier - Modern
@@ -33,8 +33,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Gewinner des WPN Qualifier erhält 1 Slot für den Regional Championship.
 END:VEVENT
 BEGIN:VEVENT
-UID:636bfa7c-5ae0-45c4-9f10-f634011739f1@magic-munich
-DTSTAMP:20260320T171058
+UID:6fcbed66-ad80-439c-9f63-745c7c9b3e70@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260408T180000
 DTEND:20260408T210000
 SUMMARY:Magic Modern Turnier
@@ -43,8 +43,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:0366edbd-2d03-4f04-ba36-4b7effef064d@magic-munich
-DTSTAMP:20260320T171058
+UID:6aea1db9-1e69-4aa4-9719-0207f6c55574@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260415T180000
 DTEND:20260415T210000
 SUMMARY:Magic Modern Turnier
@@ -53,8 +53,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:582155d9-0c3c-4cb3-a5f9-cde97e799c10@magic-munich
-DTSTAMP:20260320T171058
+UID:b489f153-4895-4e0e-94c0-4c435e9ec58a@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260422T180000
 DTEND:20260422T210000
 SUMMARY:Magic Modern Turnier
@@ -63,8 +63,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:419957cc-d8c7-421e-b7d6-52f497a5eddc@magic-munich
-DTSTAMP:20260320T171058
+UID:1ee83753-e0f0-4345-9a12-c7d2b803b6f9@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260429T180000
 DTEND:20260429T210000
 SUMMARY:Magic Modern Turnier
@@ -73,8 +73,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:d785d9f9-acf8-480c-a751-702818128b34@magic-munich
-DTSTAMP:20260320T171058
+UID:a3943c1f-6392-4660-a2d4-3c4f77eb5972@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260506T180000
 DTEND:20260506T210000
 SUMMARY:Magic Modern Turnier
@@ -83,8 +83,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:00123611-e2a5-42f6-af73-85c85c2eae5b@magic-munich
-DTSTAMP:20260320T171058
+UID:4810e918-530f-4e8e-a2ef-9b0d191587ff@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260513T180000
 DTEND:20260513T210000
 SUMMARY:Magic Modern Turnier
@@ -93,8 +93,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:298eb323-3b67-44d8-9b03-12d68c0a886b@magic-munich
-DTSTAMP:20260320T171058
+UID:5f3621c1-dd9f-4375-a10c-548ac105b883@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260520T180000
 DTEND:20260520T210000
 SUMMARY:Magic Modern Turnier
@@ -103,8 +103,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:6d947141-6de7-4e3f-9a79-cb20c016bb08@magic-munich
-DTSTAMP:20260320T171058
+UID:45c6bc70-08e7-482d-8e15-9e1f77ac4b1b@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260527T180000
 DTEND:20260527T210000
 SUMMARY:Magic Modern Turnier
@@ -113,8 +113,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:39a409ff-ba00-4f89-be48-85e6cf318d57@magic-munich
-DTSTAMP:20260320T171058
+UID:e7fd925a-5df6-4a38-bc67-6855209a41f9@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260603T180000
 DTEND:20260603T210000
 SUMMARY:Magic Modern Turnier
@@ -123,8 +123,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:bf64379f-259c-4f33-93d8-269708e715f9@magic-munich
-DTSTAMP:20260320T171058
+UID:d9e3c4b0-5453-4958-9ee3-27d1702a5ffe@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260610T180000
 DTEND:20260610T210000
 SUMMARY:Magic Modern Turnier
@@ -133,8 +133,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:693a2f48-9ef9-4da2-ae86-e8a8e813476b@magic-munich
-DTSTAMP:20260320T171058
+UID:4d9c5f63-d49a-4dd1-b516-34b6f74b2584@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260617T180000
 DTEND:20260617T210000
 SUMMARY:Magic Modern Turnier
@@ -143,8 +143,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:c9727252-c556-490c-b296-2ceb7ce522d0@magic-munich
-DTSTAMP:20260320T171058
+UID:a18e2b91-2927-4669-b8ae-ba82be70631b@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260624T180000
 DTEND:20260624T210000
 SUMMARY:Magic Modern Turnier
@@ -153,8 +153,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:41ce5710-554a-4ffc-9105-fd30e6506511@magic-munich
-DTSTAMP:20260320T171058
+UID:8471f7d9-ea69-4303-a00b-b03e3076f56b@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260701T180000
 DTEND:20260701T210000
 SUMMARY:Magic Modern Turnier
@@ -163,8 +163,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:e5eae01c-0c9e-479c-b8d2-7308c5d84300@magic-munich
-DTSTAMP:20260320T171058
+UID:ecb943eb-5dd2-4a4d-bc2a-ed48080baea1@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260708T180000
 DTEND:20260708T210000
 SUMMARY:Magic Modern Turnier
@@ -173,8 +173,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:5cb5b466-3da5-427c-bb95-1c84c6f86558@magic-munich
-DTSTAMP:20260320T171058
+UID:4e44a05c-7ad1-4191-981a-b9cc3f3a498d@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260715T180000
 DTEND:20260715T210000
 SUMMARY:Magic Modern Turnier
@@ -183,8 +183,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:d673688c-6542-49c0-a31e-f00953b4a41a@magic-munich
-DTSTAMP:20260320T171058
+UID:405975b9-d49c-48e4-9da1-0f79b880e20d@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260722T180000
 DTEND:20260722T210000
 SUMMARY:Magic Modern Turnier
@@ -193,8 +193,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:cba3670e-1c04-45e6-805b-47f903f5aadd@magic-munich
-DTSTAMP:20260320T171058
+UID:01577679-fed6-4dd2-892c-aada1e49ef60@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260729T180000
 DTEND:20260729T210000
 SUMMARY:Magic Modern Turnier
@@ -203,8 +203,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:8d1e07c4-1d49-4100-b52b-0d4de3a11e74@magic-munich
-DTSTAMP:20260320T171058
+UID:0264f004-fe52-4c08-8233-fe0c94f39aec@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260805T180000
 DTEND:20260805T210000
 SUMMARY:Magic Modern Turnier
@@ -213,8 +213,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:379cf0a3-b8a5-464a-8292-0c75648519b7@magic-munich
-DTSTAMP:20260320T171058
+UID:c51b3e72-8fbb-487d-a8af-698a50080fa9@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260812T180000
 DTEND:20260812T210000
 SUMMARY:Magic Modern Turnier
@@ -223,8 +223,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:9ede5f7c-5cf8-4b29-9e8f-e914e517af00@magic-munich
-DTSTAMP:20260320T171058
+UID:1bf0bed3-9e5f-4f43-be85-a47c84851bed@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260819T180000
 DTEND:20260819T210000
 SUMMARY:Magic Modern Turnier
@@ -233,8 +233,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:a4aaefaa-2a2e-457d-b796-55902f56c7d2@magic-munich
-DTSTAMP:20260320T171058
+UID:9def827a-2606-45c9-9f3f-789c4f9dc378@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260826T180000
 DTEND:20260826T210000
 SUMMARY:Magic Modern Turnier
@@ -243,8 +243,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:2969e49a-41b0-4511-b09a-29b2720cd49d@magic-munich
-DTSTAMP:20260320T171058
+UID:4d2d5af3-8194-4179-98a2-588c5301019f@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260902T180000
 DTEND:20260902T210000
 SUMMARY:Magic Modern Turnier
@@ -253,8 +253,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:ae081ee6-9c72-4d7c-803d-6889f411d280@magic-munich
-DTSTAMP:20260320T171058
+UID:e908f147-59db-4627-a03d-19027b5c7630@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260909T180000
 DTEND:20260909T210000
 SUMMARY:Magic Modern Turnier
@@ -263,8 +263,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:9710337b-8cc3-40d7-b735-fa87a028f478@magic-munich
-DTSTAMP:20260320T171058
+UID:87c26f55-3fd6-4531-a53d-7f488963c59c@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260916T180000
 DTEND:20260916T210000
 SUMMARY:Magic Modern Turnier
@@ -273,8 +273,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:58de8357-7c31-4327-b31e-9dc2f57d189d@magic-munich
-DTSTAMP:20260320T171058
+UID:d61f909c-49a1-4af8-bf2b-d6c9db078b0f@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260923T180000
 DTEND:20260923T210000
 SUMMARY:Magic Modern Turnier
@@ -283,8 +283,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:8c1c0a9b-564b-4823-ba23-c0a711105876@magic-munich
-DTSTAMP:20260320T171058
+UID:67370777-821d-43e7-b608-e41d35b7249d@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260930T180000
 DTEND:20260930T210000
 SUMMARY:Magic Modern Turnier
@@ -293,8 +293,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:8f9e2d54-11f4-4bc3-837e-b96e3a517c87@magic-munich
-DTSTAMP:20260320T171058
+UID:66a8e1c6-d290-45fd-8b18-b700a8522483@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261007T180000
 DTEND:20261007T210000
 SUMMARY:Magic Modern Turnier
@@ -303,8 +303,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:7fa279e1-a174-443c-ad9c-3d61ec07e7b7@magic-munich
-DTSTAMP:20260320T171058
+UID:9c8ee225-e2c1-49a7-bf77-24ae5b74aea4@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261014T180000
 DTEND:20261014T210000
 SUMMARY:Magic Modern Turnier
@@ -313,8 +313,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:c5efaabd-b5d1-4df7-9179-872958cc939d@magic-munich
-DTSTAMP:20260320T171058
+UID:90e319d2-4124-4ef7-bd8e-b700861cea62@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261021T180000
 DTEND:20261021T210000
 SUMMARY:Magic Modern Turnier
@@ -323,8 +323,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:cb742347-4502-41b5-8646-44cc4b133399@magic-munich
-DTSTAMP:20260320T171058
+UID:182cf7a2-cbda-4c03-a99f-db6cc740f69e@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261028T180000
 DTEND:20261028T210000
 SUMMARY:Magic Modern Turnier
@@ -333,8 +333,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:9f9af6c7-41ce-4d4d-a3d4-7c03355ec730@magic-munich
-DTSTAMP:20260320T171058
+UID:a6e78608-34a1-4752-9008-9c540d306b8c@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261104T180000
 DTEND:20261104T210000
 SUMMARY:Magic Modern Turnier
@@ -343,8 +343,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:0564ea4c-b553-4d27-a6cd-eb147265a1b2@magic-munich
-DTSTAMP:20260320T171058
+UID:b4dfea6c-2708-4c85-9ec4-b64440a4de38@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261111T180000
 DTEND:20261111T210000
 SUMMARY:Magic Modern Turnier
@@ -353,8 +353,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:fbf290be-ddf3-4ea0-a5c3-5bc45250e33c@magic-munich
-DTSTAMP:20260320T171058
+UID:9d98069f-e328-4102-bab9-b6f5fbe80061@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261118T180000
 DTEND:20261118T210000
 SUMMARY:Magic Modern Turnier
@@ -363,8 +363,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:c16e0389-50e2-4bc7-b1df-4f6542581592@magic-munich
-DTSTAMP:20260320T171058
+UID:b458b84e-9d30-4015-a0db-7136ea83f029@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261125T180000
 DTEND:20261125T210000
 SUMMARY:Magic Modern Turnier
@@ -373,8 +373,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4a2ce136-851e-4b64-acb8-8504b035d9df@magic-munich
-DTSTAMP:20260320T171058
+UID:6a87cc70-243a-4872-a681-ec506039f5ad@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261202T180000
 DTEND:20261202T210000
 SUMMARY:Magic Modern Turnier
@@ -383,8 +383,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:83261ac5-2fd5-4109-8a63-6b4439402dd9@magic-munich
-DTSTAMP:20260320T171058
+UID:7028ad4f-cb8a-4a1b-98f9-e8808d0fcc20@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261209T180000
 DTEND:20261209T210000
 SUMMARY:Magic Modern Turnier
@@ -393,8 +393,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4f170edb-f342-463f-96a6-cbade9d9e397@magic-munich
-DTSTAMP:20260320T171058
+UID:214c6c83-97df-44dc-b8d9-5f5148f98a50@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261216T180000
 DTEND:20261216T210000
 SUMMARY:Magic Modern Turnier
@@ -403,8 +403,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:c227e7c8-f15a-45cc-a2fd-355dd1e9790a@magic-munich
-DTSTAMP:20260320T171058
+UID:d516bd4f-b1ba-43a0-b690-dfe760af4eab@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261223T180000
 DTEND:20261223T210000
 SUMMARY:Magic Modern Turnier
@@ -413,8 +413,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:d3ece8a6-8558-4adb-b630-fc70a5f6e273@magic-munich
-DTSTAMP:20260320T171058
+UID:5a970836-825a-4000-9da1-647ac0ef758b@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20261230T180000
 DTEND:20261230T210000
 SUMMARY:Magic Modern Turnier
@@ -423,8 +423,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:e7a13ff2-ff02-48fc-90e9-a913aabe8198@magic-munich
-DTSTAMP:20260320T171058
+UID:60e243a9-7983-4bb2-babe-564f3d9ebfac@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260327T170000
 DTEND:20260327T200000
 SUMMARY:Friday Night Magic: Modern
@@ -433,8 +433,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:a0014188-3544-4364-a68c-647203740558@magic-munich
-DTSTAMP:20260320T171058
+UID:70e2103b-3ce2-4cc3-8357-ed99fa67a769@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260410T170000
 DTEND:20260410T200000
 SUMMARY:Friday Night Magic: Modern
@@ -443,8 +443,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:fa5a3b5a-5fc7-46f4-9547-d8777f30172e@magic-munich
-DTSTAMP:20260320T171058
+UID:4c14ea76-eedd-4402-8779-569a2ef8fd00@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260417T170000
 DTEND:20260417T200000
 SUMMARY:Friday Night Magic: Modern
@@ -453,8 +453,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:f75fde5d-dca7-47be-a5ac-a22fe82efac5@magic-munich
-DTSTAMP:20260320T171058
+UID:25352ab2-3be8-4ee1-9826-c524228272df@magic-munich
+DTSTAMP:20260320T171436
 DTSTART:20260424T170000
 DTEND:20260424T200000
 SUMMARY:Friday Night Magic: Modern
