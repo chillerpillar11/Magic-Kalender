@@ -3,14 +3,17 @@ name: Update Magic Calendar
 on:
   schedule:
     - cron: "0 */6 * * *"   # alle 6 Stunden
-  workflow_dispatch:        # manuell startbar
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # wichtig für diff
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,10 +27,20 @@ jobs:
       - name: Generate calendar
         run: python generate_calendar.py
 
-      - name: Commit changes
+      - name: Check if magic.ics changed
+        id: diffcheck
+        run: |
+          if git diff --quiet magic.ics; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.diffcheck.outputs.changed == 'true'
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add magic.ics || echo "nothing to add"
-          git commit -m "Update calendar" || echo "no changes"
-          git push || echo "no push"
+          git add magic.ics
+          git commit -m "Update calendar ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push
