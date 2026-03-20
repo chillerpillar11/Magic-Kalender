@@ -54,29 +54,26 @@ def fetch_dd_munich_events():
         time_nodes = cell.select("div.B11jYK")
         title_nodes = cell.select("div.OyuNR8")
 
-for t_node, title_node in zip(time_nodes, title_nodes):
-    time_text = t_node.get_text(strip=True)
-    title = title_node.get_text(strip=True)
+        for t_node, title_node in zip(time_nodes, title_nodes):
+            time_text = t_node.get_text(strip=True)
+            title = title_node.get_text(strip=True)
 
-    # DEBUG-Ausgabe
-    print("DEBUG DD:", title)
+            try:
+                hour, minute = map(int, time_text.split(":"))
+            except:
+                continue
 
-    try:
-        hour, minute = map(int, time_text.split(":"))
-    except:
-        continue
+            start = base_date.replace(hour=hour, minute=minute)
+            end = start + timedelta(hours=3)
 
-    start = base_date.replace(hour=hour, minute=minute)
-    end = start + timedelta(hours=3)
-
-    events.append({
-        "title": title,
-        "start": start,
-        "end": end,
-        "location": "Deck & Dice Munich",
-        "url": url,
-        "description": "",
-    })
+            events.append({
+                "title": title,
+                "start": start,
+                "end": end,
+                "location": "Deck & Dice Munich",
+                "url": url,
+                "description": "",
+            })
 
     print(f"DD Munich Events gefunden: {len(events)}")
     return events
