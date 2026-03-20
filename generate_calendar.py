@@ -12,34 +12,29 @@ print("Script gestartet")
 def set_default_duration(event):
     name = event.name.lower()
 
-    # RCQ
     if "rcq" in name or "regional championship" in name or "qualifier" in name:
         event.duration = timedelta(hours=6)
         return
 
-    # Friday Night Magic Modern
     if ("friday night" in name or "fnm" in name) and "modern" in name:
         event.duration = timedelta(hours=4)
         return
 
-    # After Work Modern
     if "after" in name and "modern" in name:
         event.duration = timedelta(hours=3)
         return
 
-    # Store Championship
     if "store championship" in name or "championship" in name:
         event.duration = timedelta(hours=5)
         return
 
 
 # ---------------------------------------------------------
-# FILTER: NUR RELEVANTE EVENTS (NICHT DD-SPEZIFISCH)
+# FILTER: NUR RELEVANTE EVENTS
 # ---------------------------------------------------------
 def is_relevant_event(event):
     name = event.name.lower()
 
-    # RCQ (alle Shops)
     if any(x in name for x in [
         "rcq",
         "regional championship",
@@ -50,18 +45,15 @@ def is_relevant_event(event):
     ]):
         return True
 
-    # Store Championship (alle Shops)
     if "store championship" in name or "championship" in name:
         return True
 
-    # Friday Night Modern (alle Shops)
     if (
         any(x in name for x in ["friday night", "fnm", "friday night magic"])
         and "modern" in name
     ):
         return True
 
-    # After Work Modern (alle Shops – praktisch nur DD)
     if "after work modern" in name or "after-work modern" in name or "afterwork modern" in name:
         return True
 
@@ -213,36 +205,32 @@ def fetch_ddmunich_events():
     cards = soup.select('li[data-hook="events-card"]')
 
     for card in cards:
-        # Titel
         title_el = card.select_one('a[data-hook="title"]')
         if not title_el:
             continue
+
         title = title_el.get_text(strip=True)
         name_lower = title.lower()
 
-        # Nur Modern-Events behalten
         if "modern" not in name_lower:
             continue
 
-        # Datum + Uhrzeit
         date_el = card.select_one('div[data-hook="date"]')
         if not date_el:
             continue
 
         raw = date_el.get_text(strip=True)
-        # Beispiel: "20. März 2026, 18:30 – 23:00"
+
         try:
             date_part, time_part = raw.split(",")
             start_time = time_part.split("–")[0].strip()
-            dt = datetime.strptime(f"{date_part.strip()} {start_time}", "%d. %b %Y %H:%M")
+            dt = datetime.strptime(f"{date_part.strip()} {start_time}", "%d. %B %Y %H:%M")
         except:
-            # Alternative Format: "20. März 2026, 18:30 – 23:00"
             try:
-                dt = datetime.strptime(raw.split("–")[0].strip(), "%d. %B %Y, %H:%M")
+                dt = datetime.strptime(raw.split("–")[0].strip(), "%d. %b %Y, %H:%M")
             except:
                 continue
 
-        # Event erstellen
         e = Event()
         e.name = title
         e.begin = dt
@@ -270,17 +258,14 @@ def generate_ics():
 
     all_events = bb + ft + dd
 
-    # Filter (DD ist durch fetch_ddmunich_events schon stark eingeschränkt)
     all_events = [e for e in all_events if is_relevant_event(e)]
 
-    # Duplikate entfernen
     unique = {}
     for e in all_events:
         key = (e.name.lower(), e.begin)
         unique[key] = e
     all_events = list(unique.values())
 
-    # Sortieren
     all_events.sort(key=lambda e: e.begin)
 
     print("Gesamtanzahl Events:", len(all_events))
@@ -288,7 +273,6 @@ def generate_ics():
     for e in all_events:
         cal.events.add(e)
 
-    print("Schreibe magic.ics...")
     with open("magic.ics", "w", encoding="utf-8") as f:
         f.writelines(cal)
 
