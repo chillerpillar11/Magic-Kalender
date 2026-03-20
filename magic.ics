@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Magic Munich Calendar//DE
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:bf440725-db2d-428d-89c5-95244bf0544e@magic-munich
-DTSTAMP:20260320T175136
+UID:39418f8e-fabb-43b2-85bb-eafb3e78e311@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260325T180000
 DTEND:20260325T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -13,8 +13,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:cb7b7e01-6230-46d4-8689-2f11edb0e365@magic-munich
-DTSTAMP:20260320T175136
+UID:ff9b03e3-85b0-4c47-b702-b344be6483a8@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260401T180000
 DTEND:20260401T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -23,8 +23,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:0fb1a9eb-054e-406e-b62d-fc8adfca8656@magic-munich
-DTSTAMP:20260320T175136
+UID:daaf4b0b-9b50-4932-8644-7b055ef67ae8@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260404T110000
 DTEND:20260404T140000
 SUMMARY:BB-Spiele – Regional Championship Store Qualifier - Modern
@@ -33,8 +33,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Gewinner des WPN Qualifier erhält 1 Slot für den Regional Championship.
 END:VEVENT
 BEGIN:VEVENT
-UID:9b2c053e-284f-4192-bc64-3c3dbeb32b91@magic-munich
-DTSTAMP:20260320T175136
+UID:8c7c9c97-1f5c-43b1-924b-7f242e31a19a@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260408T180000
 DTEND:20260408T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -43,8 +43,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:cb393b49-0100-4d5b-adaf-10bdf1886c22@magic-munich
-DTSTAMP:20260320T175136
+UID:b7dbd656-2d44-4d66-a85d-b0e046bd2921@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260415T180000
 DTEND:20260415T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -53,8 +53,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:6d232863-efff-4941-86c4-800ceb31db3a@magic-munich
-DTSTAMP:20260320T175136
+UID:480d328c-567a-42ee-82d9-a7b2739e1831@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260422T180000
 DTEND:20260422T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -63,8 +63,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:2b392abc-ac04-4640-ab03-c3ac3c8238e6@magic-munich
-DTSTAMP:20260320T175136
+UID:c86f68ae-bb38-4bab-ba05-e92f0665349a@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260429T180000
 DTEND:20260429T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -73,8 +73,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:bd52946d-1c68-4008-990f-72ad8aeb3cab@magic-munich
-DTSTAMP:20260320T175136
+UID:30ef51dd-1bb6-42ca-bc9b-5952f1f4a5be@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260506T180000
 DTEND:20260506T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -83,8 +83,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:d33594a8-e720-4d58-8000-3c286cbba1c4@magic-munich
-DTSTAMP:20260320T175136
+UID:34cb3264-bcae-414d-a517-64247ecd731f@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260513T180000
 DTEND:20260513T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -93,8 +93,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:e5d89927-f894-4672-80fb-eba43da24203@magic-munich
-DTSTAMP:20260320T175136
+UID:07c55812-1be4-405f-a8f5-e45e09388f5f@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260520T180000
 DTEND:20260520T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -103,8 +103,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:34535b07-4c17-4688-a18f-e4bb33155b70@magic-munich
-DTSTAMP:20260320T175136
+UID:03da37e5-62c6-4a78-8f8c-65edda79ac76@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260527T180000
 DTEND:20260527T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -113,8 +113,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:719daa56-9b52-4292-b654-b736975b9999@magic-munich
-DTSTAMP:20260320T175136
+UID:fde7cdfa-7235-4d11-869d-e3dd70769aa6@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260603T180000
 DTEND:20260603T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -123,8 +123,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4dd822b1-14a0-4bd1-8556-8c4ad1d660a6@magic-munich
-DTSTAMP:20260320T175136
+UID:a7107bf4-af86-4478-9984-6827fe451ed8@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260610T180000
 DTEND:20260610T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -133,8 +133,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4a1a9d9e-4cf2-4823-a04b-8e5adc23c2e8@magic-munich
-DTSTAMP:20260320T175136
+UID:975433cc-4040-4200-81be-d6c5f10719da@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260617T180000
 DTEND:20260617T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -143,8 +143,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:628a5f46-22df-4e71-a0fc-5baa0401ff9c@magic-munich
-DTSTAMP:20260320T175136
+UID:4fd4153b-9c25-481a-9941-5dacfdf2cab9@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260624T180000
 DTEND:20260624T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -153,8 +153,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:e84d4c82-5633-426c-a56e-f945b7b2fba5@magic-munich
-DTSTAMP:20260320T175136
+UID:4cd6b91c-c60b-42e3-9c92-534233981375@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260701T180000
 DTEND:20260701T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -163,8 +163,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:0ff19ebe-9280-458d-8529-398eeecd6e77@magic-munich
-DTSTAMP:20260320T175136
+UID:9cd48a5a-65e4-43bb-b7a9-2e1d2a886e95@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260708T180000
 DTEND:20260708T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -173,8 +173,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:a31f82c6-abdf-4a2a-a3dd-0ca44ada8ce2@magic-munich
-DTSTAMP:20260320T175136
+UID:75a4b667-5eda-4cd9-9c99-d74e6a9357fe@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260715T180000
 DTEND:20260715T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -183,8 +183,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:79513640-a2c4-4821-8349-6b0c56a04900@magic-munich
-DTSTAMP:20260320T175136
+UID:6b34b74b-130b-40bc-9e7b-86aa43f12a55@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260722T180000
 DTEND:20260722T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -193,8 +193,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:6dfe975d-b92e-4a0e-997e-2d14654b0c28@magic-munich
-DTSTAMP:20260320T175136
+UID:f0dd24f6-abd8-4d78-9ac6-a0a9eaae145d@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260729T180000
 DTEND:20260729T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -203,8 +203,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:52fcea69-f8ce-45d8-b93e-033aa23c511a@magic-munich
-DTSTAMP:20260320T175136
+UID:4688d7fb-48e7-4f9c-966a-a3bd3fdc79f3@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260805T180000
 DTEND:20260805T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -213,8 +213,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:3ee89f7f-0fbb-4b5d-9d70-86c525a7c44b@magic-munich
-DTSTAMP:20260320T175136
+UID:7be594f8-2b5d-4547-9d0b-01c54abfbc80@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260812T180000
 DTEND:20260812T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -223,8 +223,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:12d4b2b3-dfca-4c79-b3ad-c87fe7e79185@magic-munich
-DTSTAMP:20260320T175136
+UID:25127e67-fd3c-4c4a-97d1-cceaf39a6095@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260819T180000
 DTEND:20260819T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -233,8 +233,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:10b081e6-e549-4dc3-b7ac-1496244f9247@magic-munich
-DTSTAMP:20260320T175136
+UID:a16dcd87-b863-4e65-87eb-033138afff00@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260826T180000
 DTEND:20260826T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -243,8 +243,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:5cb90935-157c-4476-b487-3e60996ee9a2@magic-munich
-DTSTAMP:20260320T175136
+UID:a4a1a92c-25be-4d4a-a937-4600ccda1805@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260902T180000
 DTEND:20260902T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -253,8 +253,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:5a6782c4-fc02-4be1-862e-9912a50bf8d7@magic-munich
-DTSTAMP:20260320T175136
+UID:53f50e42-ad99-423e-b34a-1451a8eb0fea@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260909T180000
 DTEND:20260909T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -263,8 +263,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4a48881b-0c31-424a-b58e-4790e95c4a6e@magic-munich
-DTSTAMP:20260320T175136
+UID:a676d67c-e863-43ca-875e-632ae11cd0ef@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260916T180000
 DTEND:20260916T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -273,8 +273,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:07569742-9d69-42ca-b573-5838151539a4@magic-munich
-DTSTAMP:20260320T175136
+UID:76e61cec-8a71-40a8-90fc-126c5f34fb88@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260923T180000
 DTEND:20260923T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -283,8 +283,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:99c0cce9-0ffb-481a-af70-fb9556371e67@magic-munich
-DTSTAMP:20260320T175136
+UID:df917e53-edca-4c0f-880e-025367f678a5@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260930T180000
 DTEND:20260930T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -293,8 +293,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:0fc8800f-3c20-487a-be04-ff643084b4c5@magic-munich
-DTSTAMP:20260320T175136
+UID:c4d8f6a1-c6da-4cd8-9383-b9dcda41e0dc@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261007T180000
 DTEND:20261007T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -303,8 +303,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:320a7052-c579-444f-b7bc-5dc891a5ad93@magic-munich
-DTSTAMP:20260320T175136
+UID:c6e0acba-f37c-4ffc-8b17-ba35c79f250b@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261014T180000
 DTEND:20261014T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -313,8 +313,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:bd2b49a3-cda3-45a8-8f23-2b7b13e94299@magic-munich
-DTSTAMP:20260320T175136
+UID:1ccbb47b-8ca7-41c8-b020-d26671594673@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261021T180000
 DTEND:20261021T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -323,8 +323,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:1bbc41d2-c4f2-4a52-bdce-dfd3d930955b@magic-munich
-DTSTAMP:20260320T175136
+UID:801757f1-4a7f-4eba-bc9a-3ed24a95cd89@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261028T180000
 DTEND:20261028T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -333,8 +333,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:4952d7ac-285d-42f1-9d01-e2d3119d8f8d@magic-munich
-DTSTAMP:20260320T175136
+UID:3b3887a2-e039-473c-8843-f4177b351b25@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261104T180000
 DTEND:20261104T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -343,8 +343,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:ee311afa-4f87-4b14-b0a9-9471030b4432@magic-munich
-DTSTAMP:20260320T175136
+UID:0f9ad8c9-6ee2-49d5-9f05-d32e009d9be8@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261111T180000
 DTEND:20261111T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -353,8 +353,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:d3c9dc2a-52c3-42ba-bad2-271bb3dd97fc@magic-munich
-DTSTAMP:20260320T175136
+UID:6d57e3e5-82bf-4116-9466-1f6725567e18@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261118T180000
 DTEND:20261118T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -363,8 +363,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:5ed236b5-cb9c-44b0-986a-f4306d0e7bd0@magic-munich
-DTSTAMP:20260320T175136
+UID:c10d117d-e120-45d4-baa9-221704e0ff89@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261125T180000
 DTEND:20261125T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -373,8 +373,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:2bf7b77c-d4bf-4bfe-8b82-f4e4041ba849@magic-munich
-DTSTAMP:20260320T175136
+UID:4491dcbc-9764-4168-9c16-d0b8d928c42f@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261202T180000
 DTEND:20261202T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -383,8 +383,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:0a413d0c-0333-4a2a-a18c-4813fef04d96@magic-munich
-DTSTAMP:20260320T175136
+UID:2a7e4b7c-4a86-43ab-bdd2-b831372c91fd@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261209T180000
 DTEND:20261209T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -393,8 +393,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:32569a73-d242-4949-bf0e-3528ac018c4f@magic-munich
-DTSTAMP:20260320T175136
+UID:44a12e7e-b946-4747-a84b-df3044589086@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261216T180000
 DTEND:20261216T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -403,8 +403,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:ae967765-77ad-481e-a20e-4629684cc24f@magic-munich
-DTSTAMP:20260320T175136
+UID:5babefe7-0425-41be-a366-3b01d9ab866a@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261223T180000
 DTEND:20261223T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -413,8 +413,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:29fc996c-3227-4585-8c49-0aaf54cdd124@magic-munich
-DTSTAMP:20260320T175136
+UID:0c875806-8d17-43fe-9969-90faee62b1d2@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20261230T180000
 DTEND:20261230T210000
 SUMMARY:BB-Spiele – Magic Modern Turnier
@@ -423,8 +423,8 @@ URL:https://www.bb-spiele.de
 DESCRIPTION:Keine Voranmeldung erforderlich. Teilnahmegebühr €12. Es werden 3 Runden gespielt
 END:VEVENT
 BEGIN:VEVENT
-UID:50720ced-a510-4e4f-877e-9e54dd84b9eb@magic-munich
-DTSTAMP:20260320T175136
+UID:1c16a7d6-0781-4de6-b64d-8eb615fa41cb@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260327T170000
 DTEND:20260327T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -433,8 +433,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:deeaed9e-d0e0-4111-842b-227576bc2a08@magic-munich
-DTSTAMP:20260320T175136
+UID:863e15d0-e22a-46c3-a370-47f695e8b545@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260410T170000
 DTEND:20260410T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -443,8 +443,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:4aa9a9ec-ecfd-4c2c-9bab-c7d70384a19d@magic-munich
-DTSTAMP:20260320T175136
+UID:1861074e-43eb-45d8-97e6-f37f5cf07f87@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260417T170000
 DTEND:20260417T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -453,8 +453,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:5ee7759c-70a8-424e-88c6-46e87314e414@magic-munich
-DTSTAMP:20260320T175136
+UID:e7a88c4c-00d8-416e-94ac-04d50e966476@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260424T170000
 DTEND:20260424T200000
 SUMMARY:Funtainment – Friday Night Magic: Modern
@@ -463,8 +463,8 @@ URL:https://www.funtainment.de
 DESCRIPTION:Buche Deinen Platz für dieses Event
 END:VEVENT
 BEGIN:VEVENT
-UID:bc7942e8-1326-40b7-bc18-d8c2b75db1e6@magic-munich
-DTSTAMP:20260320T175136
+UID:132b02b6-a0d7-4194-a57d-77e07dff3a36@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260320T183000
 DTEND:20260320T213000
 SUMMARY:Deck & Dice – Friday Night Modern 18.30
@@ -473,10 +473,380 @@ URL:https://www.dd-munich.de
 DESCRIPTION:
 END:VEVENT
 BEGIN:VEVENT
-UID:59c15e33-7984-46e2-a726-3142215d2373@magic-munich
-DTSTAMP:20260320T175136
+UID:49bd7420-05e4-4611-a466-d7083b59c11b@magic-munich
+DTSTAMP:20260320T180153
 DTSTART:20260324T190000
 DTEND:20260324T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:4dbe8634-702e-455c-9ca9-c75b6d3f05f6@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260403T170000
+DTEND:20260403T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:fe700e38-a0ed-43b6-89f2-951b524ff240@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260501T170000
+DTEND:20260501T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:bfdd1053-5f05-4a67-a2cd-a30b37ce8d83@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260508T170000
+DTEND:20260508T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:1caafd73-9435-4d3f-9eee-11b2666d386b@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260515T170000
+DTEND:20260515T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:dfc0b62e-d3ff-467d-8f57-e83b7e7a13a6@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260522T170000
+DTEND:20260522T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:c16daf5b-f20b-42a9-81f7-2ac92863e703@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260529T170000
+DTEND:20260529T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:2325a823-7203-4e03-83ac-04d93a3c3e69@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260605T170000
+DTEND:20260605T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:125779e0-5362-4ab3-b43a-faedf294840a@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260612T170000
+DTEND:20260612T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:08588262-b3fb-4c5e-affa-50ffe3d62f0e@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260619T170000
+DTEND:20260619T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:e21858a5-be7b-4df4-938b-230629853463@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260626T170000
+DTEND:20260626T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:00cf059f-1e46-460b-a1a3-e6e85533a1af@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260703T170000
+DTEND:20260703T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:f0a28534-89ea-4edd-9931-5167bcf26e8d@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260710T170000
+DTEND:20260710T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:29f3f358-6540-481f-9c92-997dc0176844@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260717T170000
+DTEND:20260717T200000
+SUMMARY:Funtainment – Friday Night Magic: Modern
+LOCATION:FUNtainment München
+URL:https://www.funtainment.de
+DESCRIPTION:Buche Deinen Platz für dieses Event
+END:VEVENT
+BEGIN:VEVENT
+UID:92f8bd22-afbd-4385-b1fd-536fe38abada@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260327T183000
+DTEND:20260327T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:65723999-850f-4446-82d4-b4eae54a2459@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260403T183000
+DTEND:20260403T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:e50a3f53-3134-4e6f-a098-c1f8e118f24f@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260410T183000
+DTEND:20260410T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:5d720e2e-96a5-417b-9b21-db9ebef43028@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260417T183000
+DTEND:20260417T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:582ad899-ad47-4d1b-b343-bb73d35681ac@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260424T183000
+DTEND:20260424T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:d119e6c9-c0fe-4bcb-bfbd-ebe361cc7fe3@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260501T183000
+DTEND:20260501T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:048d7d87-1c8b-4301-abbc-2ebbc0a9b493@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260508T183000
+DTEND:20260508T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:3d4fd9e7-0972-451a-93d8-1825391df224@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260515T183000
+DTEND:20260515T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:ede67596-d34a-445d-8fa9-724fa089f862@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260522T183000
+DTEND:20260522T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:cc13d482-714a-47c9-8138-cb8b0d3f5dbf@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260529T183000
+DTEND:20260529T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:c39f714b-b6d6-44bd-b40e-a4598fc3d0c0@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260605T183000
+DTEND:20260605T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:5d346748-5e1b-4e29-8ede-dbfca3dcf04c@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260612T183000
+DTEND:20260612T213000
+SUMMARY:Deck & Dice – Friday Night Modern 18.30
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2c4f9e-d351-4058-8078-32ecd2b24065@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260331T190000
+DTEND:20260331T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:e31e6b0f-7402-4b44-9564-cfb171169df7@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260407T190000
+DTEND:20260407T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6371f6-6098-417d-926c-9799f90cc4e3@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260414T190000
+DTEND:20260414T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:f3ad37c4-8579-43e8-a1e8-01ab9d263a77@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260421T190000
+DTEND:20260421T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:c9dae1c1-d153-4be3-a2ba-cd56fb6f3880@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260428T190000
+DTEND:20260428T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:8040c3d9-af0c-40ab-bda3-70f9fcba972c@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260505T190000
+DTEND:20260505T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:ae97bf5a-5b57-41de-a809-79d0ee5792ef@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260512T190000
+DTEND:20260512T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:c273a3e8-5387-43d6-8239-0245a1a0b5be@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260519T190000
+DTEND:20260519T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:fd2a3f4c-9144-4bf9-adf2-228a65e441ae@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260526T190000
+DTEND:20260526T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:59f4d4d8-2121-4b1d-a13d-e327b395bca8@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260602T190000
+DTEND:20260602T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:2d0c9b3b-4e97-46f8-9cec-090988b83315@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260609T190000
+DTEND:20260609T220000
+SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
+LOCATION:Deck & Dice Munich
+URL:https://www.dd-munich.de
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9a876f-7c7a-40c9-983f-14a0d6d32407@magic-munich
+DTSTAMP:20260320T180153
+DTSTART:20260616T190000
+DTEND:20260616T220000
 SUMMARY:Deck & Dice – After Work Modern - 19:00 Uhr
 LOCATION:Deck & Dice Munich
 URL:https://www.dd-munich.de
