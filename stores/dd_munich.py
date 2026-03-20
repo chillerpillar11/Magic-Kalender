@@ -11,6 +11,56 @@ MONTHS_DE = {
     "juli": 7, "august": 8, "september": 9, "oktober": 10, "november": 11, "dezember": 12
 }
 
+def fetch_dd_list_view_events(soup, url):
+    events = []
+
+    for li in soup.select('li[data-hook^="calendar-event-list-item"]'):
+        title_el = li.select_one('[data-hook^="event-title"]')
+        time_el = li.select_one('[data-hook^="event-time"]')
+
+        if not title_el or not time_el:
+            continue
+
+        title = title_el.get_text(strip=True)
+        time_text = time_el.get_text(strip=True)
+
+        print("DEBUG DD LIST TITLE:", repr(title))
+        print("DEBUG DD LIST TIME:", repr(time_text))
+
+        # Datum aus data-hook extrahieren
+        m = re.search(r"(\d{4})-(\d{2})-(\d{2})", li.get("data-hook", ""))
+        if not m:
+            continue
+
+        year, month, day = map(int, m.groups())
+        base_date = datetime(year, month, day, tzinfo=TZ)
+
+        # Zeit normalisieren
+        time_text = time_text.replace(".", ":")
+        if "uhr" in time_text.lower():
+            time_text = time_text.lower().replace("uhr", "").strip() + ":00"
+
+        try:
+            hour, minute = map(int, time_text.split(":"))
+        except Exception as e:
+            print("DEBUG DD LIST PARSE ERROR:", repr(time_text), e)
+            continue
+
+        start = base_date.replace(hour=hour, minute=minute)
+        end = start + timedelta(hours=3)
+
+        events.append({
+            "title": title,
+            "start": start,
+            "end": end,
+            "location": "Deck & Dice Munich",
+            "url": url,
+            "description": "",
+        })
+
+    return events
+
+
 def fetch_dd_munich_events():
     print("Hole Events von Deck & Dice / DD Munich...")
 
@@ -25,6 +75,8 @@ def fetch_dd_munich_events():
         return []
 
     soup = BeautifulSoup(resp.text, "html.parser")
+
+    # 1) Monatsansicht (Standard, Commander, Workshops)
     events = []
 
     for cell in soup.select('[data-hook^="calendar-cell-"]'):
@@ -48,7 +100,6 @@ def fetch_dd_munich_events():
             continue
 
         month = MONTHS_DE[month_name]
-
         base_date = datetime(year, month, day, tzinfo=TZ)
 
         time_nodes = cell.select("div.B11jYK")
@@ -58,13 +109,9 @@ def fetch_dd_munich_events():
             time_text = t_node.get_text(strip=True)
             title = title_node.get_text(strip=True)
 
-            # DEBUG-Ausgabe
-            print("DEBUG DD TITLE:", repr(title))
-            print("DEBUG DD TIME:", repr(time_text))
+            print("DEBUG DD MONTH TITLE:", repr(title))
+            print("DEBUG DD MONTH TIME:", repr(time_text))
 
-            # Zeitformat normalisieren
-            # 18.30 → 18:30
-            # 19 Uhr → 19:00
             time_text = time_text.replace(".", ":")
 
             if "uhr" in time_text.lower():
@@ -72,8 +119,8 @@ def fetch_dd_munich_events():
 
             try:
                 hour, minute = map(int, time_text.split(":"))
-            except Exception as e:
-                print("DEBUG DD PARSE ERROR:", repr(time_text), e)
+            except:
+                print("DEBUG DD MONTH PARSE ERROR:", repr(time_text))
                 continue
 
             start = base_date.replace(hour=hour, minute=minute)
@@ -88,5 +135,10 @@ def fetch_dd_munich_events():
                 "description": "",
             })
 
-    print(f"DD Munich Events gefunden: {len(events)}")
-    return events
+    # 2) Listenansicht (Modern!)
+    list_events = fetch_dd_list_view_events(soup, url)
+
+    all_events = events + list_events
+
+    print(f"DD Munich Events gefunden: {len(all_events)}")
+    return all_events
