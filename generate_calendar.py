@@ -137,7 +137,7 @@ def fetch_funtainment_events():
 # DD MUNICH
 # ---------------------------------------------------------
 def fetch_ddmunich_events():
-    print("Hole Events von DD Munich...")
+    print("Hole Events von Deck & Dice / DD Munich...")
 
     url = "https://www.dd-munich.de/event-list"
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -151,51 +151,48 @@ def fetch_ddmunich_events():
     soup = BeautifulSoup(resp.text, "html.parser")
     events = []
 
-    day_blocks = soup.select("[data-hook='calendar-event-list']")
+    # Alle Kalenderzellen
+    cells = soup.select("[data-hook^='calendar-cell-']")
 
-    monate = {
-        "Januar": "01", "Februar": "02", "März": "03", "April": "04",
-        "Mai": "05", "Juni": "06", "Juli": "07", "August": "08",
-        "September": "09", "Oktober": "10", "November": "11", "Dezember": "12"
-    }
-
-    for block in day_blocks:
-        date_el = block.select_one("[data-hook='calendar-popup-title']")
-        if not date_el:
+    for cell in cells:
+        data_hook = cell.get("data-hook")
+        if not data_hook:
             continue
 
-        raw_date = date_el.get_text(strip=True)  # "20. März"
-
+        # Beispiel: calendar-cell-2026-02-22T23:00:00.000Z
         try:
-            tag, monat_name = raw_date.split(". ")[0], raw_date.split(". ")[1]
-            monat = monate[monat_name]
-            jahr = str(datetime.now().year)
-            date_str = f"{tag.zfill(2)}.{monat}.{jahr}"
+            iso = data_hook.replace("calendar-cell-", "")
+            date = datetime.fromisoformat(iso.replace("Z", ""))
         except:
             continue
 
-        items = block.select("li.nJOvU6")
+        # Events in der Zelle
+        items = cell.select(".x336W1")
 
         for item in items:
-            title_el = item.select_one("[data-hook^='event-title']")
-            time_el = item.select_one("[data-hook^='event-time']")
+            time_el = item.select_one(".B11jYK")
+            title_el = item.select_one(".OyuNR8")
 
-            if not title_el or not time_el:
+            if not time_el or not title_el:
                 continue
 
+            time_str = time_el.get_text(strip=True)
             title = title_el.get_text(strip=True)
-            time_str = time_el.get_text(strip=True).replace(".", ":")
 
+            # Datum + Uhrzeit kombinieren
             try:
-                dt = datetime.strptime(f"{date_str} {time_str}", "%d.%m.%Y %H:%M")
+                dt = datetime.strptime(
+                    f"{date.strftime('%Y-%m-%d')} {time_str}",
+                    "%Y-%m-%d %H:%M"
+                )
             except:
                 continue
 
             e = Event()
             e.name = title
             e.begin = dt
-            e.location = "DD Munich"
-            e.description = "Event von DD Munich"
+            e.location = "Deck & Dice / DD Munich"
+            e.description = "Event von Deck & Dice / DD Munich"
 
             events.append(e)
 
