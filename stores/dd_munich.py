@@ -7,14 +7,13 @@ import re
 TZ = ZoneInfo("Europe/Berlin")
 
 # ---------------------------------------------------------
-# Relevante Formate für Deck & Dice (Modern, Legacy, Premodern, RCQ)
-# Mit robuster Regex-Erkennung für Friday Night Modern
+# Relevante Formate für Deck & Dice
+# Modern, Legacy, Premodern, Standard, RCQ
 # ---------------------------------------------------------
 def is_relevant_dd_event(title: str) -> bool:
     t = title.lower()
 
-    # --- 1) Friday Night Modern (14-tägig) ---
-    # Erkennen ALLE Varianten von Friday Night Modern
+    # --- 1) Friday Night Modern (14-tägig, exklusiv) ---
     if re.search(r"friday\s+night\s+modern", t):
         return True
 
@@ -24,10 +23,14 @@ def is_relevant_dd_event(title: str) -> bool:
         r"after\s+work\s+modern",
         r"after\s+work\s+legacy",
         r"after\s+work\s+premodern",
+
         r"\bstandard\b",
+        r"standard\s+constructed",
+        r"friday\s+night\s+standard",
+
         r"\blegacy\b",
         r"\bpremodern\b",
-        r"\bmodern\b",  # Modern allgemein
+        r"\bmodern\b",
     ]
 
     for pattern in weekly_patterns:
@@ -62,7 +65,7 @@ def is_relevant_dd_event(title: str) -> bool:
 
 
 # ---------------------------------------------------------
-# Uhrzeit extrahieren (falls wir sie mal aus Text brauchen)
+# Uhrzeit extrahieren
 # ---------------------------------------------------------
 def extract_time(text: str):
     text = text.lower()
@@ -79,7 +82,7 @@ def extract_time(text: str):
 
 
 # ---------------------------------------------------------
-# Monatsnamen normalisieren (Vollformen + Abkürzungen)
+# Monatsnamen normalisieren
 # ---------------------------------------------------------
 def parse_month_name(name: str) -> int | None:
     n = name.lower().strip().replace(".", "")
@@ -129,9 +132,6 @@ def fetch_widget_events(soup):
             print("    ✗ Filter: nicht relevant")
             continue
 
-        # Beispiele:
-        # "20. März 2026, 18:30 – 23:00"
-        # "03. Apr. 2026, 18:30 – 23:00"
         m = re.match(
             r"(\d{1,2})\.\s+([A-Za-zÄÖÜäöü\.]+)\s+(\d{4}),\s+(\d{1,2}:\d{2})",
             date_text
@@ -194,7 +194,6 @@ def fetch_dd_munich_events():
 
     widget_events = fetch_widget_events(soup)
 
-    # Doppelte Events vermeiden
     seen = set()
     final = []
 
