@@ -14,6 +14,8 @@ def is_modern_or_rcq(title: str) -> bool:
         "rcq",
         "regional championship qualifier",
         "qualifier",
+        "store championship",
+        "championship",
     ]
 
     exclude = [
