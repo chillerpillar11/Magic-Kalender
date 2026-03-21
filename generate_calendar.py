@@ -145,9 +145,9 @@ def main():
     # MTGO
     try:
         events = fetch_mtgo_events()
-    all_events.extend(events)
-except Exception as e:
-    print("Fehler bei MTGO:", e)
+        all_events.extend(events)
+    except Exception as e:
+        print("Fehler bei MTGO:", e)
 
     # BB-Spiele
     try:
