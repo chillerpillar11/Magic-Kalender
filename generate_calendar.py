@@ -78,44 +78,39 @@ def save_history(events):
 
 
 # ---------------------------------------------------------
-# Proxy-Event-Generator (12 Wochen)
+# Proxy-Event-Generator (12 Wiederholungen)
 # ---------------------------------------------------------
 def generate_proxy_events(event):
     title = event["title"].lower()
 
-    # Wöchentliche Formate
-    weekly_keywords = [
+    # ❌ RCQ → niemals Proxy-Events
+    if "rcq" in title or "regional championship qualifier" in title:
+        return []
+
+    # Wöchentliche Serien
+    weekly_formats = [
         "after work modern",
         "after work legacy",
         "after work premodern",
-        "premodern",
-        "legacy",
-        "modern",  # Modern außer Friday Night Modern
     ]
 
-    # 14-tägiges Format: Friday Night Modern
-    fnm_modern_keywords = [
+    # 14-tägige Serien
+    biweekly_formats = [
         "friday night modern",
-        "friday night magic – modern",
-        "friday night magic - modern",
-        "friday night magic modern",
     ]
 
-    # Prüfen, ob Friday Night Modern → 14 Tage
-    is_fnm_modern = any(k in title for k in fnm_modern_keywords)
+    is_weekly = any(f in title for f in weekly_formats)
+    is_biweekly = any(f in title for f in biweekly_formats)
 
-    # Prüfen, ob wöchentliches Format
-    is_weekly = any(k in title for k in weekly_keywords)
-
-    if not (is_fnm_modern or is_weekly):
+    if not (is_weekly or is_biweekly):
         return []
 
     proxy_events = []
     start = event["start"]
     end = event["end"]
 
-    for i in range(1, 13):  # 12 Wiederholungen
-        if is_fnm_modern:
+    for i in range(1, 13):
+        if is_biweekly:
             delta = timedelta(weeks=2)
         else:
             delta = timedelta(weeks=1)
@@ -173,18 +168,14 @@ def main():
 
     print(f"Neue Events geladen: {len(all_events)}")
 
-    # ---------------------------------------------------------
     # Proxy-Events erzeugen
-    # ---------------------------------------------------------
     proxy_events = []
     for ev in all_events:
         proxy_events.extend(generate_proxy_events(ev))
 
     print(f"Erzeugte Proxy-Events: {len(proxy_events)}")
 
-    # ---------------------------------------------------------
     # Alte Events laden
-    # ---------------------------------------------------------
     history = load_history()
 
     restored = []
@@ -198,31 +189,23 @@ def main():
             "description": ev.get("description", "")
         })
 
-    # ---------------------------------------------------------
     # Neue + Proxy + alte Events zusammenführen
-    # ---------------------------------------------------------
     combined = restored + all_events + proxy_events
 
-    # ---------------------------------------------------------
     # Duplikate entfernen (echte Events überschreiben Proxy)
-    # ---------------------------------------------------------
     unique = {}
     for ev in combined:
         key = (ev["title"].lower().strip(), ev["start"].isoformat())
-        unique[key] = ev  # echte Events überschreiben Proxy
+        unique[key] = ev
 
     final_events = list(unique.values())
 
     print(f"Gesamtanzahl Events (inkl. Vergangenheit & Proxy): {len(final_events)}")
 
-    # ---------------------------------------------------------
     # History aktualisieren
-    # ---------------------------------------------------------
     save_history(final_events)
 
-    # ---------------------------------------------------------
     # ICS erzeugen
-    # ---------------------------------------------------------
     generate_ics(final_events)
 
 
