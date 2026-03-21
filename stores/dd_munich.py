@@ -20,9 +20,11 @@ def is_relevant_dd_event(title: str) -> bool:
 
     # --- 2) Wöchentliche Formate ---
     weekly_patterns = [
+        r"after\s+work\s+standard",
         r"after\s+work\s+modern",
         r"after\s+work\s+legacy",
         r"after\s+work\s+premodern",
+        r"\bstandard\b",
         r"\blegacy\b",
         r"\bpremodern\b",
         r"\bmodern\b",  # Modern allgemein
@@ -46,7 +48,7 @@ def is_relevant_dd_event(title: str) -> bool:
     # --- 4) Ausschlüsse ---
     exclude = [
         "commander", "edh", "draft", "sealed", "prerelease", "pre-release",
-        "standard", "pauper", "booster", "casual", "painting", "workshop",
+        "pauper", "booster", "casual", "painting", "workshop",
         "warhammer", "40k", "age of sigmar", "pokémon", "pokemon", "lorcana",
         "yu-gi-oh", "yugioh", "flesh and blood", "fab", "one piece",
         "star wars", "spearwars", "spear wars", "spearhead",
