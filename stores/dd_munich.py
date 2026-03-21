@@ -7,72 +7,56 @@ import re
 TZ = ZoneInfo("Europe/Berlin")
 
 # ---------------------------------------------------------
-# Relevante Formate für Deck & Dice
+# Relevante Formate für Deck & Dice (Modern, Legacy, Premodern, RCQ)
+# Mit robuster Regex-Erkennung für Friday Night Modern
 # ---------------------------------------------------------
 def is_relevant_dd_event(title: str) -> bool:
-    title = title.lower()
+    t = title.lower()
 
-    # Formate, die wir aufnehmen wollen
-    include = [
-        # Modern
-        "modern",
-        "fnm",
-        "friday night magic",
-        "friday night modern",
-        "after work modern",
+    # --- 1) Friday Night Modern (14-tägig) ---
+    # Erkennen ALLE Varianten von Friday Night Modern
+    if re.search(r"friday\s+night\s+modern", t):
+        return True
 
-        # Legacy
-        "legacy",
-        "after work legacy",
-
-        # Premodern
-        "premodern",
-        "after work premodern",
-
-        # RCQ
-        "rcq",
-        "regional championship qualifier",
-        "qualifier",
+    # --- 2) Wöchentliche Formate ---
+    weekly_patterns = [
+        r"after\s+work\s+modern",
+        r"after\s+work\s+legacy",
+        r"after\s+work\s+premodern",
+        r"\blegacy\b",
+        r"\bpremodern\b",
+        r"\bmodern\b",  # Modern allgemein
     ]
 
-    # Formate, die wir NICHT wollen
+    for pattern in weekly_patterns:
+        if re.search(pattern, t):
+            return True
+
+    # --- 3) RCQ ---
+    rcq_patterns = [
+        r"\brcq\b",
+        r"regional championship qualifier",
+        r"\bqualifier\b",
+    ]
+
+    for pattern in rcq_patterns:
+        if re.search(pattern, t):
+            return True
+
+    # --- 4) Ausschlüsse ---
     exclude = [
-        "commander",
-        "edh",
-        "draft",
-        "sealed",
-        "prerelease",
-        "pre-release",
-        "standard",
-        "pauper",
-        "booster",
-        "casual",
-        "painting",
-        "workshop",
-        "warhammer",
-        "40k",
-        "age of sigmar",
-        "pokémon",
-        "pokemon",
-        "lorcana",
-        "yu-gi-oh",
-        "yugioh",
-        "flesh and blood",
-        "fab",
-        "one piece",
-        "star wars",
-        "spearwars",
-        "spear wars",
-        "spearhead",
-        "tabletop",
-        "boardgame",
-        "brettspiel",
+        "commander", "edh", "draft", "sealed", "prerelease", "pre-release",
+        "standard", "pauper", "booster", "casual", "painting", "workshop",
+        "warhammer", "40k", "age of sigmar", "pokémon", "pokemon", "lorcana",
+        "yu-gi-oh", "yugioh", "flesh and blood", "fab", "one piece",
+        "star wars", "spearwars", "spear wars", "spearhead",
+        "tabletop", "boardgame", "brettspiel",
     ]
 
-    if any(x in title for x in exclude):
+    if any(x in t for x in exclude):
         return False
 
-    return any(x in title for x in include)
+    return False
 
 
 # ---------------------------------------------------------
