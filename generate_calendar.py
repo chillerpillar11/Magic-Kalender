@@ -9,6 +9,7 @@ from pathlib import Path
 from stores.bb_spiele import fetch_bb_spiele_events
 from stores.funtainment import fetch_funtainment_events
 from stores.dd_munich import fetch_dd_munich_events
+from stores.mtgo_events import fetch_mtgo_events
 
 TZ = ZoneInfo("Europe/Berlin")
 HISTORY_FILE = Path("events_history.json")
@@ -140,6 +141,13 @@ def main():
     print("Erzeuge Kalender...")
 
     all_events = []
+
+    # MTGO
+    try:
+        events = fetch_mtgo_events()
+    all_events.extend(events)
+except Exception as e:
+    print("Fehler bei MTGO:", e)
 
     # BB-Spiele
     try:
