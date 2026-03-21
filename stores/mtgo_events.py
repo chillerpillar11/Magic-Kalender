@@ -56,37 +56,36 @@ def supply_year_and_decrement_month(today: datetime, data):
     return [year, month - 1, *data[1:]]
 
 
-# === 3. Hier musst du deine JS-Daten reinkopieren ===
-# getBaseSchedule, getRCQData, getShowcaseData, getHackishLCQCorrections,
-# getCubeEvents, getVegasQualifiers – 1:1 aus scheduleData.js,
-# nur in Python-Listen/Dicts übersetzt.
-#
-# Um die Antwort hier schlank zu halten, schreibe ich nur die Schnittstelle:
+# === 3. Daten / Logik aus scheduleData.js & schedule.js ===
+# Hier kommen entweder:
+#  - direkt portierte Arrays/Funktionen rein
+#  - oder eine Laufzeit-Lösung, die scheduleData.js von mtgoupdate lädt
+# Aktuell sind das Platzhalter, damit dein Projekt sauber importieren kann.
 
 def get_base_schedule():
     # return Liste mit 7*24 Strings/None – aus getBaseSchedule()
-    raise NotImplementedError
+    raise NotImplementedError("get_base_schedule() muss noch mit Daten gefüllt werden.")
 
 
 def get_rcq_data(today: datetime):
     # aus getRCQData() + supplyYearAndDecrementMonth()
-    raise NotImplementedError
+    raise NotImplementedError("get_rcq_data() muss noch implementiert werden.")
 
 
 def get_showcase_data(today: datetime):
-    raise NotImplementedError
+    raise NotImplementedError("get_showcase_data() muss noch implementiert werden.")
 
 
 def get_hackish_lcq_corrections(today: datetime):
-    raise NotImplementedError
+    raise NotImplementedError("get_hackish_lcq_corrections() muss noch implementiert werden.")
 
 
 def get_cube_events(today: datetime):
-    raise NotImplementedError
+    raise NotImplementedError("get_cube_events() muss noch implementiert werden.")
 
 
 def get_vegas_qualifiers(today: datetime):
-    raise NotImplementedError
+    raise NotImplementedError("get_vegas_qualifiers() muss noch implementiert werden.")
 
 
 # === 4. Monster-Schedule wie im JS ===
@@ -144,12 +143,12 @@ def insert_event(normal: str, special: str, is_replacement: bool) -> str:
 def get_rcqs(today: datetime):
     # Map: date_iso -> {hour: event_string}
     # aus getRCQData(), addCurrentYearDSTDates, addCubeEvents, addVegasQualifiers
-    raise NotImplementedError
+    raise NotImplementedError("get_rcqs() muss noch implementiert werden.")
 
 
 def get_showcases_and_lcqs(today: datetime):
     # Map: date_iso -> {hour: event_string}
-    raise NotImplementedError
+    raise NotImplementedError("get_showcases_and_lcqs() muss noch implementiert werden.")
 
 
 # === 5. Zeitberechnung & Event-Generierung für N Tage ===
@@ -180,7 +179,6 @@ def generate_mtgo_events(days: int = 30):
 
         for part in parts:
             if part == "DST":
-                # grob wie im JS: vor/nach Sommerzeit
                 if today_local.month < 6:
                     ts -= timedelta(hours=1)
                 else:
@@ -209,7 +207,13 @@ def generate_mtgo_events(days: int = 30):
                 "start": start_local,
                 "end": end_local,
                 "location": "MTGO",
-                "source": "mtgo",
+                "url": "https://www.mtgoupdate.com/",
+                "description": "",
             })
 
     return events
+
+
+# öffentliche API für generate_calendar.py
+def fetch_mtgo_events():
+    return generate_mtgo_events(days=30)
